@@ -51,7 +51,7 @@ function Login() {
                         <h3 className="font-bold text-lg">Login</h3>
                         {/* Email */}
                         <div className='mt-4 space-y-2'>
-                            <span>Email</span>
+                            <span className = 'text-black'>Email</span>
                             <br />
                             <input type='email'
                                 placeholder='Enter your Email'
@@ -68,7 +68,7 @@ function Login() {
                         </div>
                         {/* Password */}
                         <div className='mt-4 space-y-2'>
-                            <span>Password</span>
+                            <span className = 'text-black' >Password</span>
                             <br />
                             <input type='password'
                                 placeholder='Enter your Password'
